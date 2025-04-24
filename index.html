@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Grid</title>
+    <!DOCTYPE html>
+    <html lang="cs">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+    <head>
+        
+        <title>Flexbox Grid</title>
+       
+        <style>
+            /* Zaklad styl*/
+            body {
+                font-family: Arial, sans-serif;
+                padding: 15px;
+                background-color: #f9f9f9;
+            }
+            
+            /* Styl pro ty blokyw */
+            .box {
+                background-color: #fff;
+               
+                padding: 15px;
+                margin-bottom: 15px;
+                border-radius: 5px;
+             
+            }
+            
+           
+            
+            /* Styly pro posledni Bod */
+            .header {
+                background-color: #42cbf5;
+                color: white;
+                padding: 20px;
+                border-radius: 5px;
+                text-align: center;
+            }
+            
+            .content {
+                background-color: #2718ff;
+                min-height: 200px;
+            }
+            
+            .sidebar {
+                background-color: #5e26fa;
+                min-height: 200px;
+            }
+            
+            .footer {
+                background-color: #327aff;
+                color: white;
+                padding: 15px;
+                text-align: center;
+                border-radius: 5px;
+            }
+            /*barvy bloku*/
+            .col-1 {background-color: rgb(0, 4, 255);}
+            .col-2 {background-color: rgb(255, 0, 0)}
+            .col-3 {background-color: rgb(30, 255, 0);}
+            .col-4 {background-color: rgb(255, 238, 0);}
+      
+        </style>
+    </head>
+    <!-- Hlavicka -->
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="header">
+                <h1>Flexbox Grid </h1>
+                <p>Tato stránka je domácí ůkol na předmet VT</p>
+            </div>
+        </div>
+    </div>
+    <body>
+        
+        
+        
+        <!-- 2. bod z moodlu -->
+     
+            <h2>2. bod z moodlu</h2>
+           
+            
+            <!-- Container -->
+            <div class="container">
+                <!-- Row e -->
+                <div class="row">
+                    <!-- 1sloup 4 dily  z 12-->
+                    <div class="col-xs-12 col-md-4">
+                        <!-- první sloupec -->
+                        <div class="box col-1">
+                            <h3>První sloupec</h3>
+                            <p>Tohle je sloupec cislo jedna</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 2sloup 4 dily  z12-->
+                    <div class="col-xs-12 col-md-4">
+                        <!-- Obsah druhého sloupce -->
+                        <div class="box col-2">
+                            <h3>Druhý sloupec</h3>
+                            <p>Tohle je sloupec cislo dva</p>
+                        </div>
+                    </div>
+                    
+                   <!-- 3sloup 4 dily  z12-->
+                    <div class="col-xs-12 col-md-4">
+                        <!-- Obsah třetího sloupce -->
+                        <div class="box col-3">
+                            <h3>Třetí sloupec</h3>
+                            <p>Tohle je sloupec cislo tri</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+        
+        <!-- 3. bod z moodlu -->
+       
+            <h2>3. bod z moodlu</h2>
+            
+            <div class="container">
+                <div class="row">
+                    <!-- 1slouzpec 8 dilu -->
+                    <div class="col-xs-12 col-md-8">
+                        <div class="box col-3">
+                            <h3>Širokej sloupec (8 dílů)</h3>
+                            <p>Tento sloupec zabírá 8 dílků z celkových 12.</p>
+                        </div>
+                    </div>
+                    
+                     <!-- 2sloupec 8 dilu -->
+                    <div class="col-xs-12 col-md-4">
+                        <div class="box col-2">
+                            <h3>Úzkej sloupec (4 díly)</h3>
+                            <p>Tento sloupec zabírá 4 dílky z celkových 12.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+        <!-- 4.  bod z moodlu -->
+        <div class="section">
+            <h2>4.  bod z moodlu</h2>
+            
+            
+            <div class="container">
+                <div class="row">
+                    <!-- 1sloupec 3 díly z12 -->
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="box col-1">
+                            <h3>Sloupec 1</h3>
+                            <p>skibidi</p>
+                        </div>
+                    </div>
+                    <!-- 2sloupec 3 díly z12 -->
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="box col-2">
+                            <h3>Sloupec 2</h3>
+                            <p>skibidi</p>
+                        </div>
+                    </div>
+                    <!-- 3sloupec 3 díly z12 -->
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="box col-3">
+                            <h3>Sloupec 3</h3>
+                            <p>skibidi</p>
+                        </div>
+                    </div>
+                    <!-- 4sloupec 3 díly z12 -->
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="box col-4">
+                            <h3>Sloupec 4</h3>
+                            <p>skibidi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 5 bod z moodle -->
+        <div class="section">
+            <h2>5. bod z moodlu</h2>
+           
+            
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="box col-1">
+                            <h3>1. sloupec</h3>
+                            <p>TUNG TUNG TUNG TUNG TUNG SAHUR</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="box col-2">
+                            <h3>druhy sloupec</h3>
+                            <p>TRALALERO TRALALA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="box col-3">
+                            <h3>treti sloupec</h3>
+                            <p>BOMBARDIRO CROCODILO</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="box col-4">
+                            <h3>ctvrty sloupec</h3>
+                            <p>BOMBARDINI GUSINI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 6. z moodlu -->
+        <div class="section">
+            <h2>6. bod z moodlu</h2>
+           
+            
+            <!-- vlevo -->
+            <div class="container">
+                <div class="row start-xs">
+                    <div class="col-xs-6">
+                        <div class="box col-2">
+                            <h3>vlevo</h3>
+                            <p>start</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- střed -->
+                <div class="row center-xs">
+                    <div class="col-xs-6">
+                        <div class="box col-1">
+                            <h3>střed</h3>
+                            <p>center</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- vpravo -->
+                <div class="row end-xs">
+                    <div class="col-xs-6">
+                        <div class="box col-3">
+                            <h3>vpravo</h3>
+                            <p>end</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 7. bod z moodlu -->
+        <div class="section">
+            <h2>7.bod z moodlu</h2>
+            
+            
+            <div class="container">
+                <div class="row">
+                    <!-- Sloupec posunut o 2  -->
+                    <div class="col-xs-6 col-xs-offset-2">
+                        <div class="box col-1">
+                            <h3>Posunutý sloupec</h3>
+                           
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <!-- Sloupec střed -->
+                    <div class="col-xs-4 col-xs-offset-4">
+                        <div class="box col-2">
+                            <h3>Sloupec uprostřed</h3>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 8 bod z moodlu -->
+        <div class="section">
+            <h2>8. bod z moodlu</h2>
+            <p>tady je zbytek obsahu ktery byl zadany jako 8. bod.</p>
+            <p>hlavicku jsem dal nahoru ale nevedel jsem kam dat zbytek obsahu tak je tady</p>
+            
+            <div class="container">
+                
+                
+                <!-- Hlavní obsah se dvěma sloupci -->
+                <div class="row">
+                    <!-- Hlavní obsah -->
+                    <div class="col-xs-12 col-md-8">
+                        <div class="box content">
+                            <h2>Hlavní obsah</h2>
+                            <p>abírá 8 díly z 12.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel neque eu odio eleifend vestibulum.</p>
+                            <p>Nullam eget dignissim nisi. Proin vel enim at nisi commodo tincidunt.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Postranní panel -->
+                    <div class="col-xs-12 col-md-4">
+                        <div class="box sidebar">
+                            <h2>Postranní panel</h2>
+                            <p>zabírá 4 díly z 12.</p>
+                          
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Patička -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="footer">
+                            <p>&copy; 2025 Rybář</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
